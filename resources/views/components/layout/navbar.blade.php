@@ -10,7 +10,7 @@
         </div>
     </div>
 </nav>
-<nav class="bg-gray-50 dark:bg-morado-100">
+<nav class="bg-gray-50 dark:bg-morado-200">
     <div class="py-3 px-4 mx-auto max-w-screen-xl md:px-6 ">
         <div class="flex items-center justify-center ">
             <ul class="flex flex-row mt-0 mr-6 space-x-20 text-sm  ">

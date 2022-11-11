@@ -14,15 +14,7 @@
       que sufren, sufrieron o podrían sufrir algún tipo de maltrato.
       </div>
   </div>
-    <main class="display: flex justify-between">
-        <div class="flex-1">
-            Hi
-        </div>
-        <div class="flex-1">
-            Pipipi
-        </div>
-        <x-chat />
-    </main>
+
  
 </body>
 <script src="../path/to/flowbite/dist/flowbite.js"></script>
