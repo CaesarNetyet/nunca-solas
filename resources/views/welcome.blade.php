@@ -8,19 +8,16 @@
 </head>
 <body>
   <x-layout.navbar />
-  <div class="flex flex-wrap m-20 text-2xl text-center w-[85%] text-white">
+  <div class="flex flex-wrap m-20 text-2xl text-center w-[85%] text-black">
     <div class="flex bg-morado-200 p-6  rounded-lg ">¿Qué es Nunca Solas? </div>
-    <div class="flex-1 bg-morado-100 p-6  rounded-lg">Plataforma diseñada para brindar apoyo a todas las mujeres violentadas 
+    <div class="flex-1 bg-rosa-100 p-6  rounded-lg">Plataforma diseñada para brindar apoyo a todas las mujeres violentadas 
       que sufren, sufrieron o podrían sufrir algún tipo de maltrato.
       </div>
   </div>
 
-<<<<<<< HEAD
- 
-=======
   <div class="flex flex-wrap m-20  w-[85%]  text-2xl text-center text-white">
   <div class="flex bg-morado-200 w-[100%] rounded-lg p-3">Trabajamos para tener un lugar de confianza </div>
-  <div class="flex flex-flow bg-morado-100 w-[100%] justify-center">
+  <div class="flex flex-flow bg-rosa-100 w-[100%] justify-center">
     <x-layout.div_inicio titulo="FOROS" class="flex" imagen="{{asset('images/ciruculo.png') }}" 
     info="En donde podrás 
     comunicarte con 
@@ -42,7 +39,7 @@
     tipode maltrato?" />
   </div>
   </div>
->>>>>>> f937f8ff1a1f09406948d2b56d65d8c6986ebbe7
+  <x-layout.footer />
 </body>
 <script src="../path/to/flowbite/dist/flowbite.js"></script>
 </html>

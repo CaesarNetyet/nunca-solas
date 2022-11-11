@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components\chat;
+namespace App\View\Components\layout;
 
 use Illuminate\View\Component;
 
-class index extends Component
+class footer extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class index extends Component
      */
     public function render()
     {
-        return view('components.chat.index.blade.php');
+        return view('components.layout.footer');
     }
 }

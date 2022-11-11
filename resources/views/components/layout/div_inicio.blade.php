@@ -1,4 +1,4 @@
-<div class=" w-[15%] p-7">
+<div class=" w-[20%] p-7">
     <div >
       <img src="{{$imagen}}" class="w-full h-full" alt="IMAGEN CIRCULAR">
     </div>
