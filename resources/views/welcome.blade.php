@@ -6,7 +6,15 @@
   @vite('resources/css/app.css')
 </head>
 <body>
-  <x-layout.navbar/>
+    <main class="display: flex justify-between">
+        <div class="flex-1">
+            Hi
+        </div>
+        <div class="flex-1">
+            Pipipi
+        </div>
+        <x-chat />
+    </main>
 </body>
 <script src="../path/to/flowbite/dist/flowbite.js"></script>
 </html>
