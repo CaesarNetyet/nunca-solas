@@ -15,13 +15,17 @@
         <div class="flex items-center justify-center ">
             <ul class="flex flex-row mt-0 mr-6 space-x-20 text-sm  ">
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5" aria-current="page">Inicio</a>
+                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5" aria-current="page">INICIO</a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5">Productos </a>
+                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5">PRODUCTOS </a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5">Informacion</a>
+                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5">INFORMACION</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:bg-morado-400 py-3 px-5">PLANES</a>
                 </li>
             </ul>
         </div>
