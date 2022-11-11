@@ -6,7 +6,16 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        morado: {
+          100: "#D198C5",
+          200: "#B96EB1",
+          300: "#9169A5",
+          400: "#7C4C96"
+        }
+    },
   },
   plugins: [],
+}
 }
