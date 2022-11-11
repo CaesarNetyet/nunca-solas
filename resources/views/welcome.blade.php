@@ -6,8 +6,7 @@
   @vite('resources/css/app.css')
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <x-layout.navbar/>
 </body>
+<script src="../path/to/flowbite/dist/flowbite.js"></script>
 </html>
