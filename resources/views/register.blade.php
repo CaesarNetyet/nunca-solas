@@ -8,28 +8,32 @@
     <title>Registarse</title>
     @vite('resources/css/app.css')  
 </head>
-<body class="p-20 display: flex justify-center">
-    <div class="display: flex bg-morado-300 p-10  border-2 border-sky-300 rounded">
-        <div class="flex-1">
-            <h1>Registrarse es muy facil</h1>
+<body class="p-20 display: flex justify-center h-screen overflow-hidden">
+<img class="display: absolute top-[-20%] z-0 left-[24%]" src="{{ asset('images/blob-haikei.svg') }}" alt="">
+<img class="display: absolute top-[50%] z-0 left-[-10%]" src="{{ asset('images/blob-haikei.svg') }}" alt="">
+<img class="display: absolute top-[45%] z-0 left-[60%]" src="{{ asset('images/blob-haikei.svg') }}" alt="">
+    <div class="z-10 display: flex bg-slate-50 p-10 shadow-xl h-[80%] gap-10 justify-evenly   border-2 border-sky-300 rounded">
+        <div class="flex-1 display: flex flex-col items-center justify-evenly h-2/3 my-10  text-center">
+            <h1 class="text-2xl "><strong>Nunca solas:</strong> Tu voz no volverá a ser callada</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam error numquam repellat sequi dolore aspernatur harum facere quam ut. Dolore quasi natus iusto minus, repellendus ducimus velit soluta cum nobis eaque voluptatum saepe aliquid hic possimus perspiciatis rem tenetur similique, eos minima debitis laborum ex quisquam? Dolor minima porro unde?</p>
         </div>
-        <form class="flex-1" action="" >
-            <h2 class="text-center text-red-500">Registrate :)</h2>
-            <div class="display: flex bg-yellow-50 p-2 rounded-3xl my-2">
-                <x-heroicon-o-user class="h-6 w-6" />
-                <input type="text" class="bg-transparent" name="name" placeholder="Nombre" required>
+        <form class="flex-1 mt-10" action="" >
+            <h2 class="text-xl text-center text-slate-500">Registrate :)</h2>
+            <div class="display: flex gap-3 bg-yellow-50 p-2 rounded-3xl my-8">
+                <x-heroicon-o-user class="h-full w-12" />
+                <input type="text" class=" bg-transparent  w-full" name="name" placeholder="Nombre" required>
             </div>
-            <div class="display: flex bg-yellow-50 p-2 rounded-3xl my-2">
-                <x-heroicon-o-user class="h-6 w-6" />
-                <input type="email" class="bg-transparent" name="email" placeholder="Correo electronico" required>
+            <div class="display: flex gap-3 bg-yellow-50 p-2 rounded-3xl my-8">
+                <x-sui-mail  class="h-full w-12" />
+                <input type="email" class="bg-transparent w-full" name="email" placeholder="Correo electronico" required>
             </div>
-            <div class="display: flex bg-yellow-50 p-2 rounded-3xl my-2">
-                <x-heroicon-o-user class="h-6 w-6" />
-                <input type="password" class="bg-transparent" name="password" placeholder="contraseña" required>
+            <div class="display: flex gap-3 bg-yellow-50 p-2 rounded-3xl my-8">
+                <x-eos-password  class="h-full w-12" />
+                <input type="password" class="bg-transparent w-full" name="password" placeholder="Contraseña" required>
             </div>
-            <button type="submit" class="bg-green-300 rounded-xl w-9/12 display: block mx-auto text-white shadow-md p-2">Registrarse</button>
+            <button type="submit" class=" mt-5 bg-green-300 rounded-xl w-9/12 display: block mx-auto text-white shadow-md p-2">Registrarse</button>
         </form> 
     </div>
+
 </body>
 </html>
