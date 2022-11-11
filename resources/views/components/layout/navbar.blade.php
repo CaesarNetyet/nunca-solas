@@ -6,7 +6,7 @@
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Nunca Solas</span>
         </a>
         <div class="flex items-center bg-morado-100 py-3 px-5 rounded-3xl hover:scale-110 hover:bg-morado-200 duration-300 ">
-            <a href="#" class="text-sm font-medium text-white dark:text-white ">Iniciar Sesion</a>
+            <a href="/register" class="text-sm font-medium text-white dark:text-white ">Iniciar Sesion</a>
         </div>
     </div>
 </nav>

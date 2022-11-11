@@ -10,11 +10,10 @@
 </head>
 <body>
 <x-layout.navbar />
-<main class="display: flex gap-5">
-       
+<main class="display: flex ">
             <x-post/>
-            <div class="bg-slate-500">
-            Hello world
+            <div class=" bg-slate-500 flex-1">
+            <h1>Posts Relevantes</h1>
         </div>
         <x-chat />
     </main>
