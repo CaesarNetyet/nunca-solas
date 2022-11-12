@@ -22,6 +22,14 @@ Route::get('/register', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/planes', function () {
+    return view('planes');
+});
+
+Route::get('/register_especial', function () {
+    return view('registro_especialista');
+});
+
 
 Route::get('/doctor/dashboard', function () {
     return view('doctor/dashboard');
