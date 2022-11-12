@@ -19,7 +19,7 @@
             <p class="text-xl" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam error numquam repellat sequi dolore aspernatur harum facere quam ut. Dolore quasi natus iusto minus, repellendus ducimus velit soluta cum nobis eaque voluptatum saepe aliquid hic possimus perspiciatis rem tenetur similique, eos minima debitis laborum ex quisquam? Dolor minima porro unde?</p>
         </div>
         </div>
-        <form class="flex-1 mt-10" action="" >
+        <form class="flex-1 mt-10" action="/home" >
             <h2 class="text-2xl text-center text-slate-500">Registrate :)</h2>
             <div class="display: flex gap-3 bg-yellow-50 p-2 rounded-3xl my-8">
                 <x-heroicon-o-user class="h-full w-12" />

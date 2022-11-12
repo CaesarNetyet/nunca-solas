@@ -30,3 +30,7 @@ Route::get('/register_especial', function () {
     return view('registro_especialista');
 });
 
+
+Route::get('/doctor/dashboard', function () {
+    return view('doctor/dashboard');
+});
