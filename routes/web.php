@@ -26,3 +26,6 @@ Route::get('/home', function () {
 Route::get('/doctor/dashboard', function () {
     return view('doctor/dashboard');
 });
+Route::get('/doctor/messages', function () {
+    return view('doctor/messages');
+});

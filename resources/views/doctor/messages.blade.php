@@ -17,11 +17,12 @@
                 <h1>Bienvenido doctor</h1>
             </div>
             <ul class="pl-3 pt-2">
-                <li class="block bg-white rounded-l-full mx-auto py-4 text-xl text-center">
-                    <a href="/dashboard">Dashboard</a>
-                </li>
+               
                 <li class="block mx-auto py-4 text-xl text-center">
-                    <a href="/mensajes">Mensajes</a>
+                    <a href="/doctor/dashboard">Dashboard</a>
+                </li>
+                <li class="block bg-white rounded-l-full mx-auto py-4 text-xl text-center">
+                    <a href="/doctor/messages">Mensajes</a>
                 </li>
                 <li class="block mx-auto py-4 text-xl text-center">
                     <a href="/finanzas">Finanzas</a>
